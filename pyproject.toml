@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "ourbot"
+version = "0.1.0"
+description = "Наш с Юлей бот"
+authors = ["Starobogatov Alexey <Starobogatov.a@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aiogram = "^3.13.1"
+pydantic-settings = "^2.5.2"
+pytz = "^2024.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
