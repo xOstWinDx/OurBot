@@ -7,5 +7,5 @@ event_emojis = {
 
 
 def get_event_msg(event_name: str, event_time: str) -> str:
-    msg = f"{event_emojis[event_name]} Событие <b>'{event_name}'</b> наступит через <b>{event_time}!</b>"
+    msg = f"{event_emojis[event_name]} Событие <b>'{event_name}'</b> начнётся через <b>{event_time}!</b>"
     return msg

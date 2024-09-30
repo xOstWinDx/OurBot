@@ -1,8 +1,10 @@
+import logging
 import time
 
-from src.archeage.check_events import check_events
+from src.archeage.check_events import daily_check
 
 if __name__ == '__main__':
+    logging.basicConfig(level=logging.INFO)
     while True:
-        check_events()
+        daily_check()
         time.sleep(60)
